@@ -7,6 +7,7 @@ import Navbar from "@/components/Navbar";
 import Services from "@/components/Services";
 import Projects from "@/components/Projects";
 import Footer from "@/components/Footer";
+import FavTools from "@/components/FavTools";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +24,7 @@ export default function Home() {
         </Head>
         <MyDesc />
         <Services />
+        <FavTools />
         <Projects />
       </div>
       <Footer />
